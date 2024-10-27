@@ -1,13 +1,12 @@
 # FileMaker-to-MariaDB
 Data migration from FileMaker to MariaDB using Python
 
-Transferring Data from FileMaker to MariaDB with Python
 This guide provides a structured approach to transfer data from FileMaker to MariaDB using Python. The steps include setting up a virtual environment for dependency management, installing necessary packages (pyodbc for FileMaker, mariadb for MariaDB), and using a .env file to securely store connection credentials.
 
 Key Highlights
 Environment Setup: Create a virtual environment to isolate dependencies and ensure reproducibility.
 Installing Packages: Install pyodbc and mariadb packages to facilitate connections.
-Connection Options: Discusses pros and cons of direct vs. SSH-tunneled connections to MariaDB.
+Connection:  MariaDB direct connection.
 Data Transfer Script: Includes a Python script to connect to FileMaker, retrieve data, and insert it into MariaDB.
 Dependency Management: Use pip freeze > requirements.txt to document dependencies, enabling easy environment setup for collaborators.
 
